@@ -1,8 +1,17 @@
 *{
     text-align: center;
+    background-color: lightpink
 }
 
 a{
     text-decoration: none;
     color: fuchsia
 }
+
+.title{
+    font-size: 70px;
+}
+
+li {
+  list-style-type: none;
+ }
