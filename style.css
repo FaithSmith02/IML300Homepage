@@ -22,13 +22,13 @@ a:hover{
 li {
   list-style-type: none;
  }
-.projects{
-    display: grid;
-    grid-template-rows: repeat(2,1fr);
-    grid-template-columns: repeat(3,1fr);
-}
 .thoughts{
     height: 250;
     width: auto;
     overflow: auto;
+}x
+.projects{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
 }
