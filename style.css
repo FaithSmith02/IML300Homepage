@@ -1,11 +1,18 @@
 *{
     text-align: center;
-    background-color: lightpink
+    background-color: lightpink;
+    font-family: 'Courier New', monospace;
+    color: white;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🌟</text></svg>") 16 0,
+        auto;
 }
 
 a{
     text-decoration: none;
     color: fuchsia
+}
+a:hover{
+    color: blue;
 }
 
 .title{
@@ -19,4 +26,9 @@ li {
     display: grid;
     grid-template-rows: repeat(2,1fr);
     grid-template-columns: repeat(3,1fr);
+}
+.thoughts{
+    height: 250;
+    width: auto;
+    overflow: auto;
 }
